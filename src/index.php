@@ -1,6 +1,6 @@
 <?php
 
-include("Template.class.php");
+include("core/Template.class.php");
 
 $template = new Template();
 
