@@ -5,6 +5,6 @@
    <title>{title}</title>
 </head>
 <body>
-   My page title is {title}
+   My page title is {title} and we are a {attr} agency!
 </body>
 </html>
