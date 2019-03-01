@@ -1,11 +1,13 @@
 <?php
 
-include("core/Template.class.php");
-
 $template = new Template();
 
-$template->file("demo.tpl");
+$template->file("test.tpl");
 
 $template->assign("title", "This is my page title");
+
+$attr = ["Creative", "Digital", "Professional"];
+
+$template->assign("attr", $attr[array_rand($attr)]);
 
 $template->render();
