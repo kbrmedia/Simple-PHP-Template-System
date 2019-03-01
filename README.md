@@ -1,6 +1,6 @@
 # Simple PHP Template System
 
-This is a very simply PHP class that you can use to generate clean template files without hassle.
+This is a very simple PHP class that you can use to generate clean template files without hassle.
 
 ## INCLUDE THE PHP CLASS
     require("core/Template.class.php");
