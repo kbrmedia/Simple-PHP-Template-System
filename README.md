@@ -3,7 +3,7 @@
 This is a very simply PHP class that you can use to generate clean template files without hassle.
 
 ## INCLUDE THE PHP CLASS
-    require("Template.class.php");
+    require("core/Template.class.php");
 
 ## INSTANTIATE THE TEMPLATE CLASS
     $template = new Template();
