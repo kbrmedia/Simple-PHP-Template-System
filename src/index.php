@@ -1,5 +1,7 @@
 <?php
 
+require_once("core/Template.class.php");
+
 $template = new Template();
 
 $template->file("test.tpl");
