@@ -4,7 +4,7 @@ require_once("core/Template.class.php");
 
 $template = new Template();
 
-$template->file("test.tpl");
+$template->file("demo.tpl");
 
 $template->assign("title", "This is my page title");
 
